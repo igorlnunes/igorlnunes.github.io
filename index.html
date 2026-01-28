@@ -22,15 +22,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Igor Mateus de Lima Nunes | Desenvolvedor Front-End | ReactJS, AngularJS, TypeScript & Linux
-  </title>
-
-  <meta name="description" content="Entusiasta da tecnologia, buscando conhecimento constantemente.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords"
-    content="Igor Nunes, typescript, linux, javascript, ethereum, ethereum virtual machine, css, html5, html, angular, docker, kubernetes, ia, inteligencia artificial" />
+  <!-- SEO & Meta Tags -->
+  <title>Igor Mateus de Lima Nunes | Front-End Developer | React, Angular, TypeScript</title>
+  
+  <meta name="description" content="Frontend developer specializing in React, Angular, TypeScript. Portfolio showcasing web applications, AI integration, and blockchain projects. Passionate about technology and user experience.">
+  
+  <meta name="keywords" content="frontend developer, React, Angular, TypeScript, JavaScript, CSS, HTML5, web developer, UI development, Google Gemini AI, IPFS, blockchain, Linux, Docker, developer portfolio">
+  
+  <meta name="author" content="Igor Mateus de Lima Nunes">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="en, pt-BR">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Igor Mateus de Lima Nunes | Frontend Developer">
+  <meta property="og:description" content="Experienced Frontend Developer with expertise in React, Angular, TypeScript. Check out my projects and get in touch.">
+  <meta property="og:url" content="https://igorlnunes.com">
+  <meta property="og:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
+  <meta property="og:site_name" content="Igor Nunes Portfolio">
+  
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Igor Mateus de Lima Nunes | Frontend Developer">
+  <meta name="twitter:description" content="Frontend developer with expertise in React, Angular, TypeScript and modern web technologies.">
+  <meta name="twitter:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
+  
+  <!-- Canonical URL -->
+  <meta name="canonical" content="https://igorlnunes.com">
+  
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Igor Mateus de Lima Nunes",
+    "url": "https://igorlnunes.com",
+    "sameAs": [
+      "https://github.com/igorlnunes",
+      "https://www.linkedin.com/in/igorlnunes/"
+    ],
+    "jobTitle": "Frontend Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance"
+    },
+    "image": "https://igorlnunes.com/images/igor_mateus.jpg",
+    "description": "Frontend Developer specializing in React, Angular, TypeScript, and modern web technologies",
+    "skills": [
+      "React.js",
+      "Angular",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Styled Components",
+      "API Integration",
+      "Google Gemini AI",
+      "IPFS",
+      "Rust",
+      "Docker",
+      "Linux"
+    ],
+    "knowsAbout": [
+      "Web Development",
+      "Frontend Engineering",
+      "User Interface Design",
+      "API Integration",
+      "Blockchain Development",
+      "Artificial Intelligence",
+      "Database Design"
+    ]
+  }
+  </script>
+  
+  <!-- Schema.org Job Posting / CV Structure -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Frontend Developer Portfolio",
+    "author": {
+      "@type": "Person",
+      "name": "Igor Mateus de Lima Nunes"
+    },
+    "description": "Portfolio showcasing frontend development projects and expertise"
+  }
+  </script>
+  
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -43,6 +121,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Trabalhos</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">Sobre mim</a>
           </li>
@@ -211,6 +290,73 @@
       </div>
     </section>
 
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Habilidades & Tecnologias</h2>
+        <div class="skills__content">
+          
+          <div class="skills__group">
+            <h3>Frontend Frameworks & Libraries</h3>
+            <ul class="skills__list">
+              <li><strong>React.js</strong> - Advanced component design, Context API, hooks</li>
+              <li><strong>Angular</strong> - Components, services, dependency injection, RxJS</li>
+              <li><strong>TypeScript</strong> - Type safety, interfaces, advanced patterns</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Core Web Technologies</h3>
+            <ul class="skills__list">
+              <li><strong>HTML5</strong> - Semantic markup, accessibility, SEO optimization</li>
+              <li><strong>CSS3</strong> - Responsive design, flexbox, grid, animations</li>
+              <li><strong>JavaScript</strong> - ES6+, async/await, DOM manipulation</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Tools & Technologies</h3>
+            <ul class="skills__list">
+              <li><strong>API Integration</strong> - RESTful APIs, Google Gemini AI, Infura RPC</li>
+              <li><strong>UI Libraries</strong> - Styled Components, Semantic UI, MathJax</li>
+              <li><strong>Version Control</strong> - Git, GitHub</li>
+              <li><strong>Deployment</strong> - Vercel, Firebase, Web3 platforms</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Emerging Technologies</h3>
+            <ul class="skills__list">
+              <li><strong>Blockchain</strong> - ERC20 tokens, Ethereum Virtual Machine, Web3</li>
+              <li><strong>AI/ML Integration</strong> - Google Gemini API, generative AI</li>
+              <li><strong>Decentralized Storage</strong> - IPFS, Pinata</li>
+              <li><strong>Backend Basics</strong> - Rust, client/provider patterns</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Languages</h3>
+            <ul class="skills__list">
+              <li><strong>Portuguese (PT-BR)</strong> - Native</li>
+              <li><strong>English</strong> - Fluent</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Other Skills</h3>
+            <ul class="skills__list">
+              <li><strong>Operating Systems</strong> - Linux, Windows</li>
+              <li><strong>Containerization</strong> - Docker, Kubernetes basics</li>
+              <li><strong>Problem Solving</strong> - Algorithm design, system thinking</li>
+              <li><strong>User Experience</strong> - UI/UX principles, accessibility (WCAG)</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- ***** About ***** -->
 
     <section class="about" id="about">
@@ -231,8 +377,47 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/igor_mateus.jpg" alt="" />
+            <img class="about__photo" src="./images/igor_mateus.jpg" alt="Igor Mateus de Lima Nunes - Frontend Developer" />
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Education & Experience ***** -->
+
+    <section class="education" id="education">
+      <div class="row">
+        <h2>Educação & Experiência</h2>
+        <div class="education__content">
+          
+          <div class="education__item">
+            <h3>Formação Acadêmica</h3>
+            <div class="education__entry">
+              <h4>Engenharia</h4>
+              <p class="education__details">Engineering background providing strong foundation in problem-solving, systems thinking, and complex system analysis</p>
+            </div>
+          </div>
+
+          <div class="education__item">
+            <h3>Experiência Profissional</h3>
+            <div class="education__entry">
+              <h4>Desenvolvedor Front-End Freelancer</h4>
+              <p class="education__details">Desenvolvimento de aplicações web modernas com React e Angular, integrações com APIs de IA, blockchain e IPFS</p>
+              <p class="education__date">Presente</p>
+            </div>
+            <div class="education__entry">
+              <h4>Projetos em Produção</h4>
+              <p class="education__details">Múltiplos projetos full-stack em produção com milhares de usuários utilizando tecnologias modernas</p>
+            </div>
+          </div>
+
+          <div class="education__item">
+            <h3>Certificações & Aprendizado Contínuo</h3>
+            <div class="education__entry">
+              <p class="education__details">Comprometido com aprendizado contínuo em tecnologias emergentes como AI/ML, Blockchain, Web3 e DevOps</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

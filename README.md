@@ -1,231 +1,164 @@
-# Portfolio Template
+# Igor Mateus de Lima Nunes | Frontend Developer Portfolio
 
-### A beautiful minimal and accessible portfolio template for Developers ✨.
+<div align="center">
 
-To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
+[![Portfolio Website](https://img.shields.io/badge/Portfolio-igorlnunes.com-blue?style=for-the-badge)](https://igorlnunes.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-igorlnunes-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/igorlnunes/)
+[![GitHub](https://img.shields.io/badge/GitHub-igorlnunes-black?style=for-the-badge&logo=github)](https://github.com/igorlnunes)
+[![Email](https://img.shields.io/badge/Email-igorlnunes%40gmail.com-red?style=for-the-badge)](mailto:igorlnunes@gmail.com)
 
-![Portfolio Gif](/images/portfolio.gif)
-
-## Want to learn How to create a template like this ?
-
-You can watch [this video series](https://www.youtube.com/watch?v=1nchVfpMGSg&list=PLwJBGAxcH7GzdavgKlCACbESzr-40lw3L) on my youtube channel where I re-create this from scratch. 
-
-
-
-## Features
-
-- Clean, Simple and Modern UI Design.
-- Uses No CSS or JavaScript Frameworks or libraries as dependencies.
-- Built with only HTML, CSS and a bit of JavaScript 🔨.
-- Well Organized Documentation.
-- Keyboard support.
-- Fully Responsive.
-- Loads fast ⚡.
-
-## Lighthouse Report
-
-![Lighthouse Report](/images/lighthouse-report.png)
-
-### Contributions are warmly welcomed ❤️.
-
-## Getting Started 🚀
-
-You'll need [Git](https://git-scm.com) to be installed on your computer. 
-```
-# Clone this repository
-$ git clone https://github.com/nisarhassan12/portfolio-template
-```
-
-If you don't have Git installed or you don't like using the terminal then you can download the [zip](https://github.com/nisarhassan12/portfolio-template/archive/master.zip) and extract that and open the extracted folder in the code editor of your your choice.
-
-## Editing the Template 🔨
-
-Go to `index.html` and fill your information. 
-
-### Header
-
-In all of the places where you're supposed to fill your information you'll find HTML comments. As shown below just replace what is already in the opening and closing tags below the comment with your information.
-
-```html
-<div class="header__text-box row">
-    <div class="header__text">
-        <h1 class="heading-primary">
-        <!-- Replace the following name with your name -->
-        <span>Syed Ali Hussnain</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-    </div>
 </div>
+
+---
+
+## 👨‍💻 About Me
+
+Frontend developer with expertise in **React**, **Angular**, and **TypeScript**. Passionate about creating user-centric digital products and exploring emerging technologies like **AI integration**, **blockchain**, and **Web3**.
+
+I have an engineering background which provides me with strong problem-solving skills, systems thinking, and the ability to analyze complex systems. I apply these principles to frontend development and user experience design.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend Frameworks & Libraries
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### Web Technologies
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=flat-square&logo=styled-components&logoColor=white)
+![Semantic UI](https://img.shields.io/badge/Semantic_UI-35BDB2?style=flat-square&logo=semantic-ui&logoColor=white)
+
+### Emerging Technologies
+![Web3](https://img.shields.io/badge/Web3-F16822?style=flat-square&logo=web3&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white)
+![AI/ML](https://img.shields.io/badge/AI%2FML-Google%20Gemini-yellow?style=flat-square)
+
+### Tools & Infrastructure
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+---
+
+## 🚀 Featured Projects
+
+### 1. **Vestigen - Physics Question Generator**
+Intelligent application that generates multiple-choice physics questions for entrance exams using **Google Gemini AI**.
+
+- **Technologies**: Angular, TypeScript, Google Gemini API, MathJax, Firebase
+- **Features**: AI-generated questions, difficulty selection, detailed solutions with LaTeX rendering
+- **Live Demo**: [vestigen-app.web.app](https://vestigen-app.web.app/)
+- **Repository**: [github.com/igorlnunes/vestigen-fisica](https://github.com/igorlnunes/vestigen-fisica/)
+
+### 2. **IPFS Image Upload Application**
+Web application for uploading and managing images on the Interplanetary File System using Pinata.
+
+- **Technologies**: React, JavaScript, IPFS, Pinata API, Semantic UI
+- **Features**: Decentralized storage, file upload, IPFS integration
+- **Live Demo**: [upload2-ipfs.vercel.app](https://upload2-ipfs.vercel.app/)
+- **Repository**: [github.com/igorlnunes/upload2Pinata](https://github.com/igorlnunes/upload2Pinata)
+
+### 3. **ERC20 Token Balance Checker**
+Terminal User Interface application for checking Ethereum token balances using Rust.
+
+- **Technologies**: Rust, ethers.rs, Infura RPC, Blockchain
+- **Features**: Wallet balance checking, ERC20 token queries, CLI interface
+- **Repository**: [github.com/igorlnunes/wallet_addr](https://github.com/igorlnunes/wallet_addr)
+
+### 4. **Banking Login System**
+Full-featured authentication system demonstrating React best practices.
+
+- **Technologies**: React, TypeScript, Context API, Styled Components
+- **Features**: Form validation, state management, user authentication
+- **Live Demo**: [typescript-diobank.vercel.app](https://typescript-diobank.vercel.app/)
+- **Repository**: [github.com/igorlnunes/typescript_diobank](https://github.com/igorlnunes/typescript_diobank)
+
+### 5. **Coffee Shop Landing Page**
+Responsive landing page with integrated Google Maps and menu showcase.
+
+- **Technologies**: HTML5, CSS3, Responsive Design, Google Maps API
+- **Features**: Mobile-responsive layout, location integration, semantic markup
+- **Live Demo**: [coffeshop-five.vercel.app](https://coffeshop-five.vercel.app/)
+- **Repository**: [github.com/igorlnunes/coffeshop](https://github.com/igorlnunes/coffeshop)
+
+---
+
+## 📊 Skills Summary
+
+| Category | Skills |
+|----------|--------|
+| **Languages** | TypeScript, JavaScript, HTML5, CSS3, Rust |
+| **Frontend** | React.js, Angular, Styled Components, Semantic UI |
+| **Concepts** | Component Design, State Management, Responsive Design, Accessibility (WCAG), SEO |
+| **APIs & Integration** | RESTful APIs, Google Gemini AI, Infura RPC, Web3.js |
+| **Blockchain** | ERC20 Tokens, Ethereum, Smart Contracts, Web3 |
+| **Storage** | IPFS, Decentralized Applications, Pinata |
+| **DevOps** | Git, Docker, Kubernetes basics, Linux, Vercel, Firebase |
+| **Other** | Problem Solving, System Design, UI/UX Principles |
+
+---
+
+## 🌐 Connect With Me
+
+- **Portfolio**: [igorlnunes.com](https://igorlnunes.com)
+- **LinkedIn**: [linkedin.com/in/igorlnunes](https://www.linkedin.com/in/igorlnunes/)
+- **GitHub**: [github.com/igorlnunes](https://github.com/igorlnunes)
+- **Email**: [igorlnunes@gmail.com](mailto:igorlnunes@gmail.com)
+
+---
+
+## 📋 About This Portfolio
+
+This portfolio is designed to be:
+- ✅ **ATS-Optimized** - Structured data for Applicant Tracking Systems
+- ✅ **Recruiter-Friendly** - Clear presentation of skills and experience
+- ✅ **SEO-Optimized** - Schema.org structured data, Open Graph tags
+- ✅ **Accessible** - WCAG compliant, keyboard navigation, semantic HTML
+- ✅ **Responsive** - Mobile-first design, works on all devices
+- ✅ **Fast** - Optimized performance, quick load times
+
+### Data Files
+- **resume.json** - Structured resume data in JSON format for easy parsing
+- **Schema.org JSON-LD** - Semantic markup for search engines and recruiters
+
+---
+
+## 🚀 Quick Start
+
+This is a static portfolio website. Simply clone and customize:
+
+```bash
+git clone https://github.com/igorlnunes/igorlnunes.github.io.git
+cd igorlnunes.github.io
 ```
 
-### Work Section
+To view locally, use a simple HTTP server:
 
-Each div with class `work__box` represents a project, replace the contents of the all the tags with the information of your projects.
-
-```html
-<div class="work__box">
-    <div class="work__text">
-    <h3>Portfolio Template</h3>
-    <p>
-        A free Open Source Portfolio for anyone to use for free.
-    </p>
-    <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
-    </ul>
-
-    <div class="work__links">
-        <a href="#" class="link__text">
-        Visit Site <span>&rarr;</span>
-        </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
-        <img src="./images/github.svg" class="work__code" alt="GitHub">
-        </a>
-    </div>
-    </div>
-    <div class="work__image-box">
-        <img
-            src="./images/project-1.png"
-            class="work__image"
-            alt="Project 1"
-        />
-    </div>
-</div>
+```bash
+python3 -m http.server 8000
+# or
+npx http-server
 ```
 
-For changing the screenshot:
-- first place the image in `images/` folder and then in HTML replace the name in `src` with the name of your image.
+Then open `http://localhost:8000` in your browser.
 
-- Recommended size for project image (1366 x 767px) also make sure the size of all  project images is the same.
+---
 
-```html
-<img
-    src="./images/name-of-your-image.png"
-    class="work__image"
-    alt="Project 1"
-/>
-```
+## 📄 Template Credits
 
-### Clients Section
+Original template designed by [Nisar Hassan Naqvi](https://nisar.dev)
+- [Repository](https://github.com/nisarhassan12/portfolio-template/)
+- Customized and enhanced for better SEO and ATS optimization
 
-- Place the logos of the clients and companies that you have worked with in `images/` directory and then replace the name in `src` with the name of your logos accordingly.
+---
 
-- Make sure that you don't have whitespace on either side of the logos.
-
-```html
-<img
-    src="./images/your-logo.png"
-    class="client__logo"
-    alt="Your Logo"
-/>
-```
-
-### About Section
-
-- Replace the contents in the below paragraph with information about yourself.
-- Place a nice photo of yourself in the `images/` directory and then change the name in the src with your image name.
-
-```html
-<section class="about" id="about">
-    <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-            <div class="about__text">
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-                nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-                in vel, ex quam quidem quos mollitia labore aut sunt eius
-                ratione molestiae fuga veniam facere similique voluptate.
-                </p>
-                <!-- Provide a link to your resume -->
-                <a href="#" class="btn">My Resume</a>
-            </div>
-
-            <div class="about__photo-container">
-                <!-- Add a nice photo of yourself -->
-                <img
-                class="about__photo"
-                src="./images/syed-ali-hussnain.jpg"
-                alt=""
-                />
-            </div>
-        </div>
-    </div>
-</section>
-```
-
-### Contact Section
-
-- Modify the paragraph to your likings.
-- Replace the email with yours in the `href` anchor property and the text also.
-
-```html
-<section class="contact" id="contact">
-      <div class="row">
-        <h2>Get in Touch</h2>
-        <div class="contact__info">
-          <p>
-            Are you looking for a fast-performing and user-friendly website to
-            represent your product or business? or looking for any kind of
-            consultation? or want to ask questions? or have some advice for me
-            or just want to say "Hi 👋" in any case feel free to Let me know. I
-            will do my best to respond back. 😊 The quickest way to reach out to
-            me is via an email.
-          </p>
-          <!-- Replace the email with yours -->
-          <a href="mailto:you@example.com" class="btn">you@example.com</a>
-        </div>
-      </div>
-</section>
-```
-
-### Footer
-
-- Replace the `href` attribute values to your profile URLs for all anchors.
-- Remove the div with class `footer__github-buttons`.
-
-```html
-<footer role="contentinfo" class="footer">
-    <div class="row">
-        <!-- Update the links to point to your accounts -->
-        <ul class="footer__social-links">
-            <li class="footer__social-link-item">
-                <a href="https://twitter.com/nisarhassan12/">
-                    <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href="https://github.com/nisarhassan12/">
-                    <img src="./images/github.svg" class="footer__social-image" alt="Github">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href="https://codepen.io/nisar_hassan">
-                    <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-                    <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
-                </a>
-            </li>
-        </ul>
-
-        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-        <p>
-          &copy; 2020 - Template designed & developed by <a href="https://nisar.dev">Nisar</a>.
-        </p>
-        <div class="footer__github-buttons">
-          <iframe
-            src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true" 
-            frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-          </iframe>
-        </div>
-    </div>
-</footer>
-```
+**Last Updated**: January 2026
