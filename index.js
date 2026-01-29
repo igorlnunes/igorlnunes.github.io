@@ -21,6 +21,14 @@ const handleMouseDownOnce = () => {
 
 window.addEventListener('keydown', handleFirstTab)
 
+// Language Toggle Handler
+const languageToggle = document.getElementById('language-toggle');
+if (languageToggle) {
+  languageToggle.addEventListener('click', () => {
+    toggleLanguage();
+  });
+}
+
 const backToTopButton = document.querySelector(".back-to-top");
 let isBackToTopRendered = false;
 
