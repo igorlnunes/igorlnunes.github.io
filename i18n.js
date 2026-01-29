@@ -13,7 +13,9 @@ let translations = {};
 async function initI18n() {
   try {
     // Load translations
-    const response = await fetch('./translations.json');
+    const baseUrl = document.querySelector('base')?.href || '/';
+    const translationsUrl = new URL('translations.json', baseUrl).href;
+    const response = await fetch(translationsUrl);
     translations = await response.json();
 
     // Get saved language preference or default to 'pt'
