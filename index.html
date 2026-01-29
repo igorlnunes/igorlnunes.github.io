@@ -120,13 +120,16 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Trabalhos</a></li>
-          <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link" data-i18n="header.navWork">Trabalhos</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link" data-i18n="header.navSkills">Habilidades</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">Sobre mim</a>
+            <a href="#about" class="nav__link" data-i18n="header.navAbout">Sobre mim</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contato</a>
+            <a href="#contact" class="nav__link" data-i18n="header.navContact">Contato</a>
+          </li>
+          <li class="nav__item">
+            <button id="language-toggle" class="nav__link nav__language-toggle" style="background: none; border: none; cursor: pointer; padding: 0.5rem 1rem; font-size: 0.9em;">🇧🇷 PT-BR</button>
           </li>
         </ul>
       </nav>
@@ -138,8 +141,8 @@
           <span>Igor Mateus de Lima Nunes</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>Desenvolvedor front-end e apaixonado por tecnologia.</p>
-        <a href="#contact" class="btn btn--pink">Fale comigo</a>
+        <p data-i18n="header.heroSubtitle">Desenvolvedor front-end e apaixonado por tecnologia.</p>
+        <a href="#contact" class="btn btn--pink" data-i18n="header.heroCTA">Fale comigo</a>
       </div>
     </div>
   </header>
@@ -150,15 +153,15 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Meus Trabalhos</h2>
+        <h2 data-i18n="work.heading">Meus Trabalhos</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
-          <div class="work__box">
+          <div class="work__box" data-project-id="vestigen">
             <div class="work__text">
-              <h3>Gerador de Questões de Física para Vestibular com Google Gemini</h3>
-              <p>
+              <h3 data-project-title>Gerador de Questões de Física para Vestibular com Google Gemini</h3>
+              <p data-project-desc>
                 Aplicação criar questões de multípla escolha de Física para vestibular. O usuário pode escolher o tópico
                 da questão e a dificuldade. Após o usuário responder pode acessar a resolução da questão. O enunciado e a resolução
                 das questões são geradas por <b>Inteligência Artificial Generativa - Google Gemini</b>
@@ -171,10 +174,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://vestigen-app.web.app/" class="link__text" target="_blank">
+                <a href="https://vestigen-app.web.app/" class="link__text" target="_blank" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/vestigen-fisica/" title="Código-fonte" target="_blank">
+                <a href="https://github.com/igorlnunes/vestigen-fisica/" title="Código-fonte" target="_blank" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -184,10 +187,10 @@
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box" data-project-id="erc20">
             <div class="work__text">
-              <h3>Getting balance of a ERC20 Token </h3>
-              <p>
+              <h3 data-project-title>Getting balance of a ERC20 Token </h3>
+              <p data-project-desc>
                 A partir de um endereço <b>Ethereum Virtual Machine</b> a aplicação do tipo <i>Terminal Interface
                   User</i> imprime o valor em USDC que está na carteira do endereço.
               </p>
@@ -199,7 +202,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/igorlnunes/wallet_addr" title="Código-fonte" target="_blank">
+                <a href="https://github.com/igorlnunes/wallet_addr" title="Código-fonte" target="_blank" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -209,10 +212,10 @@
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box" data-project-id="ipfs">
             <div class="work__text">
-              <h3>Uploading a image on IPFS</h3>
-              <p>
+              <h3 data-project-title>Uploading a image on IPFS</h3>
+              <p data-project-desc>
                 Aplicação para o upload de imagens no Interplanetary File System usando o Pinata.
               </p>
               <ul class="work__list">
@@ -223,10 +226,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://upload2-ipfs.vercel.app/" target="_blank" class="link__text">
+                <a href="https://upload2-ipfs.vercel.app/" target="_blank" class="link__text" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/upload2Pinata" title="Código-fonte" target="_blank">
+                <a href="https://github.com/igorlnunes/upload2Pinata" title="Código-fonte" target="_blank" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -236,10 +239,10 @@
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box" data-project-id="login">
             <div class="work__text">
-              <h3>Sistema de Login e Validação</h3>
-              <p>
+              <h3 data-project-title>Sistema de Login e Validação</h3>
+              <p data-project-desc>
                 Sistema de login com validação, utilização do Context API e informações do usuários.
               </p>
               <ul class="work__list">
@@ -249,10 +252,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://typescript-diobank.vercel.app/" class="link__text">
+                <a href="https://typescript-diobank.vercel.app/" class="link__text" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/typescript_diobank">
+                <a href="https://github.com/igorlnunes/typescript_diobank" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" title="Código-fonte" alt=" GitHub" target="_blank">
                 </a>
               </div>
@@ -262,10 +265,10 @@
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box" data-project-id="coffee">
             <div class="work__text">
-              <h3>Coffee Shop Landing Page</h3>
-              <p>
+              <h3 data-project-title>Coffee Shop Landing Page</h3>
+              <p data-project-desc>
                 Landing Page para uma cafeteria, com cardápio, local e integração com Google Maps.
               </p>
               <ul class="work__list">
@@ -274,10 +277,10 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://coffeshop-five.vercel.app/" class="link__text">
+                <a href="https://coffeshop-five.vercel.app/" class="link__text" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/coffeshop">
+                <a href="https://github.com/igorlnunes/coffeshop" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" title="Código-fonte" alt="GitHub">
                 </a>
               </div>
@@ -294,62 +297,62 @@
 
     <section class="skills" id="skills">
       <div class="row">
-        <h2>Habilidades & Tecnologias</h2>
+        <h2 data-i18n="skills.heading">Habilidades & Tecnologias</h2>
         <div class="skills__content">
           
-          <div class="skills__group">
-            <h3>Frontend Frameworks & Libraries</h3>
+          <div class="skills__group" data-skills-group-id="frontend">
+            <h3 data-skills-group-heading>Frontend Frameworks & Libraries</h3>
             <ul class="skills__list">
-              <li><strong>React.js</strong> - Advanced component design, Context API, hooks</li>
-              <li><strong>Angular</strong> - Components, services, dependency injection, RxJS</li>
-              <li><strong>TypeScript</strong> - Type safety, interfaces, advanced patterns</li>
+              <li data-skill-item><strong data-skill-title>React.js</strong> - <span data-skill-description>Advanced component design, Context API, hooks</span></li>
+              <li data-skill-item><strong data-skill-title>Angular</strong> - <span data-skill-description>Components, services, dependency injection, RxJS</span></li>
+              <li data-skill-item><strong data-skill-title>TypeScript</strong> - <span data-skill-description>Type safety, interfaces, advanced patterns</span></li>
             </ul>
           </div>
 
-          <div class="skills__group">
-            <h3>Core Web Technologies</h3>
+          <div class="skills__group" data-skills-group-id="web">
+            <h3 data-skills-group-heading>Core Web Technologies</h3>
             <ul class="skills__list">
-              <li><strong>HTML5</strong> - Semantic markup, accessibility, SEO optimization</li>
-              <li><strong>CSS3</strong> - Responsive design, flexbox, grid, animations</li>
-              <li><strong>JavaScript</strong> - ES6+, async/await, DOM manipulation</li>
+              <li data-skill-item><strong data-skill-title>HTML5</strong> - <span data-skill-description>Semantic markup, accessibility, SEO optimization</span></li>
+              <li data-skill-item><strong data-skill-title>CSS3</strong> - <span data-skill-description>Responsive design, flexbox, grid, animations</span></li>
+              <li data-skill-item><strong data-skill-title>JavaScript</strong> - <span data-skill-description>ES6+, async/await, DOM manipulation</span></li>
             </ul>
           </div>
 
-          <div class="skills__group">
-            <h3>Tools & Technologies</h3>
+          <div class="skills__group" data-skills-group-id="tools">
+            <h3 data-skills-group-heading>Tools & Technologies</h3>
             <ul class="skills__list">
-              <li><strong>API Integration</strong> - RESTful APIs, Google Gemini AI, Infura RPC</li>
-              <li><strong>UI Libraries</strong> - Styled Components, Semantic UI, MathJax</li>
-              <li><strong>Version Control</strong> - Git, GitHub</li>
-              <li><strong>Deployment</strong> - Vercel, Firebase, Web3 platforms</li>
+              <li data-skill-item><strong data-skill-title>API Integration</strong> - <span data-skill-description>RESTful APIs, Google Gemini AI, Infura RPC</span></li>
+              <li data-skill-item><strong data-skill-title>UI Libraries</strong> - <span data-skill-description>Styled Components, Semantic UI, MathJax</span></li>
+              <li data-skill-item><strong data-skill-title>Version Control</strong> - <span data-skill-description>Git, GitHub</span></li>
+              <li data-skill-item><strong data-skill-title>Deployment</strong> - <span data-skill-description>Vercel, Firebase, Web3 platforms</span></li>
             </ul>
           </div>
 
-          <div class="skills__group">
-            <h3>Emerging Technologies</h3>
+          <div class="skills__group" data-skills-group-id="emerging">
+            <h3 data-skills-group-heading>Emerging Technologies</h3>
             <ul class="skills__list">
-              <li><strong>Blockchain</strong> - ERC20 tokens, Ethereum Virtual Machine, Web3</li>
-              <li><strong>AI/ML Integration</strong> - Google Gemini API, generative AI</li>
-              <li><strong>Decentralized Storage</strong> - IPFS, Pinata</li>
-              <li><strong>Backend Basics</strong> - Rust, client/provider patterns</li>
+              <li data-skill-item><strong data-skill-title>Blockchain</strong> - <span data-skill-description>ERC20 tokens, Ethereum Virtual Machine, Web3</span></li>
+              <li data-skill-item><strong data-skill-title>AI/ML Integration</strong> - <span data-skill-description>Google Gemini API, generative AI</span></li>
+              <li data-skill-item><strong data-skill-title>Decentralized Storage</strong> - <span data-skill-description>IPFS, Pinata</span></li>
+              <li data-skill-item><strong data-skill-title>Backend Basics</strong> - <span data-skill-description>Rust, client/provider patterns</span></li>
             </ul>
           </div>
 
-          <div class="skills__group">
-            <h3>Languages</h3>
+          <div class="skills__group" data-skills-group-id="languages">
+            <h3 data-skills-group-heading>Languages</h3>
             <ul class="skills__list">
-              <li><strong>Portuguese (PT-BR)</strong> - Native</li>
-              <li><strong>English</strong> - Fluent</li>
+              <li data-skill-item><strong data-skill-title>Portuguese (PT-BR)</strong> - <span data-skill-description>Native</span></li>
+              <li data-skill-item><strong data-skill-title>English</strong> - <span data-skill-description>Fluent</span></li>
             </ul>
           </div>
 
-          <div class="skills__group">
-            <h3>Other Skills</h3>
+          <div class="skills__group" data-skills-group-id="other">
+            <h3 data-skills-group-heading>Other Skills</h3>
             <ul class="skills__list">
-              <li><strong>Operating Systems</strong> - Linux, Windows</li>
-              <li><strong>Containerization</strong> - Docker, Kubernetes basics</li>
-              <li><strong>Problem Solving</strong> - Algorithm design, system thinking</li>
-              <li><strong>User Experience</strong> - UI/UX principles, accessibility (WCAG)</li>
+              <li data-skill-item><strong data-skill-title>Operating Systems</strong> - <span data-skill-description>Linux, Windows</span></li>
+              <li data-skill-item><strong data-skill-title>Containerization</strong> - <span data-skill-description>Docker, Kubernetes basics</span></li>
+              <li data-skill-item><strong data-skill-title>Problem Solving</strong> - <span data-skill-description>Algorithm design, system thinking</span></li>
+              <li data-skill-item><strong data-skill-title>User Experience</strong> - <span data-skill-description>UI/UX principles, accessibility (WCAG)</span></li>
             </ul>
           </div>
 
@@ -361,18 +364,18 @@
 
     <section class="about" id="about">
       <div class="row">
-        <h2>Sobre mim</h2>
+        <h2 data-i18n="about.heading">Sobre mim</h2>
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
-            <p>
+            <p data-i18n="about.text">
               Sou Engenheiro por formação, sempre buscando entender complexos sistemas e como as pessoas interagem com
               eles. O desenvolvimento front-end é uma área onde ocorre integração usuário - máquina. Facilitar essa
               integração, criando produtos digitais que agregam valor, me motiva a trabalhar nessa área.
             </p>
             <!-- Provide a link to your resume -->
             <a href="https://www.dropbox.com/scl/fi/uiguof29h65vfl0417fxx/cv_resume_IgorNunes.pdf?rlkey=f2io6clvalrru39z7a2xq5s81&e=1&st=dwuyvm9w&dl=0"
-              target="_blank" class="btn">Curriculum Vitae</a>
+              target="_blank" class="btn" data-i18n="about.cvBtn">Curriculum Vitae</a>
           </div>
 
           <div class="about__photo-container">
@@ -387,34 +390,34 @@
 
     <section class="education" id="education">
       <div class="row">
-        <h2>Educação & Experiência</h2>
+        <h2 data-i18n="education.heading">Educação & Experiência</h2>
         <div class="education__content">
           
           <div class="education__item">
-            <h3>Formação Acadêmica</h3>
+            <h3 data-i18n="education.academic.title">Formação Acadêmica</h3>
             <div class="education__entry">
-              <h4>Engenharia</h4>
-              <p class="education__details">Engineering background providing strong foundation in problem-solving, systems thinking, and complex system analysis</p>
+              <h4 data-i18n="education.academic.degree">Engenharia</h4>
+              <p class="education__details" data-i18n="education.academic.description">Engineering background providing strong foundation in problem-solving, systems thinking, and complex system analysis</p>
             </div>
           </div>
 
           <div class="education__item">
-            <h3>Experiência Profissional</h3>
+            <h3 data-i18n="education.professional.title">Experiência Profissional</h3>
             <div class="education__entry">
-              <h4>Desenvolvedor Front-End Freelancer</h4>
-              <p class="education__details">Desenvolvimento de aplicações web modernas com React e Angular, integrações com APIs de IA, blockchain e IPFS</p>
-              <p class="education__date">Presente</p>
+              <h4 data-i18n="education.professional.position">Desenvolvedor Front-End Freelancer</h4>
+              <p class="education__details" data-i18n="education.professional.description">Desenvolvimento de aplicações web modernas com React e Angular, integrações com APIs de IA, blockchain e IPFS</p>
+              <p class="education__date" data-i18n="education.professional.current">Presente</p>
             </div>
             <div class="education__entry">
-              <h4>Projetos em Produção</h4>
-              <p class="education__details">Múltiplos projetos full-stack em produção com milhares de usuários utilizando tecnologias modernas</p>
+              <h4 data-i18n="education.professional.projects.title">Projetos em Produção</h4>
+              <p class="education__details" data-i18n="education.professional.projects.description">Múltiplos projetos full-stack em produção com milhares de usuários utilizando tecnologias modernas</p>
             </div>
           </div>
 
           <div class="education__item">
-            <h3>Certificações & Aprendizado Contínuo</h3>
+            <h3 data-i18n="education.certifications.title">Certificações & Aprendizado Contínuo</h3>
             <div class="education__entry">
-              <p class="education__details">Comprometido com aprendizado contínuo em tecnologias emergentes como AI/ML, Blockchain, Web3 e DevOps</p>
+              <p class="education__details" data-i18n="education.certifications.description">Comprometido com aprendizado contínuo em tecnologias emergentes como AI/ML, Blockchain, Web3 e DevOps</p>
             </div>
           </div>
 
@@ -427,14 +430,14 @@
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Entre em contato</h2>
+      <h2 data-i18n="contact.heading">Entre em contato</h2>
       <div class="contact__info">
-        <p>
+        <p data-i18n="contact.description">
           Você está em busca de um desenvolvedor para fazer parte da sua equipe? Alguém que busca saber os valores a ser
           entregue aos clientes? Por favor, entre em contato.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:igorlnunes@gmail.com" class="btn">igorlnunes@gmail.com</a>
+        <a href="mailto:igorlnunes@gmail.com" class="btn" data-i18n="contact.emailBtn">igorlnunes@gmail.com</a>
       </div>
     </div>
   </section>
@@ -446,22 +449,23 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://github.com/igorlnunes/" title="Perfil Github" target="_blank">
+          <a href="https://github.com/igorlnunes/" title="Perfil Github" target="_blank" data-i18n-title="footer.githubTitle">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/igorlnunes/" target="_blank">
-            <img src="./images/linkedin.svg" title="Perfil LinkedIn" class="footer__social-image" alt="LinkedIn">
+          <a href="https://www.linkedin.com/in/igorlnunes/" target="_blank" data-i18n-title="footer.linkedinTitle">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
           </a>
         </li>
       </ul>
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
+  <a href="#top" class="back-to-top" title="Back to Top" data-i18n="footer.backToTopAlt">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
+  <script src="./i18n.js"></script>
   <script src="./index.js"></script>
 </body>
 
