@@ -2,6 +2,13 @@
   Have focus outline only for keyboard users 
  ---------------------------------------- */
 
+// Initialize i18n when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof initI18n === 'function') {
+    initI18n();
+  }
+});
+
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
