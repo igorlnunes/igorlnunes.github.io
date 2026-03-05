@@ -66,6 +66,26 @@
     },
     "projects": [
       {
+        "id": "gestao-salas-de-aula",
+        "title": {
+          "pt": "Gestão de Salas de Aula",
+          "en": "Classroom Management"
+        },
+        "description": {
+          "pt": "O Gestão de Salas de Aula é um sistema para o gerenciamento de reservas e ocupação de salas de aula. Permite o cadastro de salas, criação de reservas únicas e recorrentes (evitando choque de horários) e visualização de métricas importantes por meio de um dashboard analítico focado em taxas de ocupação.",
+          "en": "The Classroom Management is a system for managing classroom reservations and occupancy. It allows the registration of rooms, creation of single and recurring reservations (avoiding schedule conflicts) and visualization of important metrics through an analytical dashboard focused on occupancy rates."
+        },
+        "visitBtn": {
+          "pt": "Visite o Site",
+          "en": "Visit the Website"
+        },
+        "sourceCodeAlt": {
+          "pt": "Código-fonte",
+          "en": "Source Code"
+        },
+        "techList": ["Python", "Django", "PostgreSQL", "CSS3"]
+      },
+      {
         "id": "vestigen",
         "title": {
           "pt": "Gerador de Questões de Física para Vestibular com Google Gemini",
@@ -368,8 +388,8 @@
               "en": "English"
             },
             "description": {
-              "pt": "Fluente",
-              "en": "Fluent"
+              "pt": "Intermediário",
+              "en": "Intermediate"
             }
           }
         ]
