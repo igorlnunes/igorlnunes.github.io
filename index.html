@@ -160,6 +160,39 @@
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box" data-project-id="web3-cofre">
+            <div class="work__text">
+              <h3 data-project-title>Cofre de Documentos Descentralizado</h3>
+              <p data-project-desc>
+                Aplicação web de gerenciamento de arquivos voltada para privacidade que utiliza tecnologias <b>Web3</b>
+                para garantir imutabilidade e prova de autoria a documentos sensíveis. O CID gerado pelo upload no
+                <b>IPFS</b> é registrado em um <b>Smart Contract</b> na blockchain, servindo como carimbo de existência.
+                Os metadados ficam protegidos no <b>Supabase</b> com Row Level Security (RLS).
+              </p>
+              <ul class="work__list">
+                <li>React 19 & Vite</li>
+                <li>TypeScript</li>
+                <li>Solidity & Foundry</li>
+                <li>IPFS (Pinata)</li>
+                <li>Wagmi & Viem</li>
+                <li>Supabase (PostgreSQL)</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://pinvault-sigma.vercel.app/" class="link__text" target="_blank" data-project-visit-btn>
+                  Visite o Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/igorlnunes/pinvault_web3" title="Código-fonte" target="_blank" data-project-source-code>
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/docvault_demonstracao.gif" class="work__image" alt="Demonstração Projeto Cofre de Documentos Descentralizado" />
+            </div>
+          </div>
+
           <div class="work__box" data-project-id="gestao-salas-de-aula">
             <div class="work__text">
               <h3 data-project-title>Gestão de Salas de Aula</h3>
@@ -318,6 +351,7 @@
               <img src="./images/coffeeshop.gif" class="work__image" alt="Projeto 3 - Landing Page" />
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -332,7 +366,7 @@
           <div class="skills__group" data-skills-group-id="frontend">
             <h3 data-skills-group-heading>Frontend Frameworks & Libraries</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>React.js</strong> - <span data-skill-description>Advanced component design, Context API, hooks</span></li>
+              <li data-skill-item><strong data-skill-title>React.js & Vite</strong> - <span data-skill-description>Advanced component design, Context API, hooks, fast build tooling with Vite</span></li>
               <li data-skill-item><strong data-skill-title>Angular</strong> - <span data-skill-description>Components, services, dependency injection, RxJS</span></li>
               <li data-skill-item><strong data-skill-title>TypeScript</strong> - <span data-skill-description>Type safety, interfaces, advanced patterns</span></li>
             </ul>
@@ -354,13 +388,15 @@
               <li data-skill-item><strong data-skill-title>UI Libraries</strong> - <span data-skill-description>Styled Components, Semantic UI, MathJax</span></li>
               <li data-skill-item><strong data-skill-title>Version Control</strong> - <span data-skill-description>Git, GitHub</span></li>
               <li data-skill-item><strong data-skill-title>Deployment</strong> - <span data-skill-description>Vercel, Firebase, Web3 platforms</span></li>
+              <li data-skill-item><strong data-skill-title>Supabase</strong> - <span data-skill-description>PostgreSQL BaaS, Auth, Row Level Security (RLS), real-time data</span></li>
             </ul>
           </div>
 
           <div class="skills__group" data-skills-group-id="emerging">
             <h3 data-skills-group-heading>Emerging Technologies</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>Blockchain</strong> - <span data-skill-description>ERC20 tokens, Ethereum Virtual Machine, Web3</span></li>
+              <li data-skill-item><strong data-skill-title>Blockchain</strong> - <span data-skill-description>ERC20 tokens, Ethereum Virtual Machine, Web3, Wagmi, Viem</span></li>
+              <li data-skill-item><strong data-skill-title>Smart Contracts</strong> - <span data-skill-description>Solidity, Foundry toolkit, Ethereum Sepolia & Polygon Amoy testnets</span></li>
               <li data-skill-item><strong data-skill-title>AI/ML Integration</strong> - <span data-skill-description>Google Gemini API, generative AI</span></li>
               <li data-skill-item><strong data-skill-title>Decentralized Storage</strong> - <span data-skill-description>IPFS, Pinata</span></li>
               <li data-skill-item><strong data-skill-title>Backend Basics</strong> - <span data-skill-description>Rust, client/provider patterns</span></li>
