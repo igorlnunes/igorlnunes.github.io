@@ -34,14 +34,14 @@
   <meta property="og:title" content="Igor Mateus de Lima Nunes | Governança de Dados">
   <meta property="og:description" content="Dados confiáveis, seguros e rastreáveis: qualidade, metadados e privacidade (LGPD). Conheça meus cases e entre em contato.">
   <meta property="og:url" content="https://igorlnunes.com">
-  <meta property="og:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
+  <meta property="og:image" content="https://igorlnunes.com/images/igor_mateus.jpg?v=20261017">
   <meta property="og:site_name" content="Igor Nunes Portfolio">
 
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Igor Mateus de Lima Nunes | Governança de Dados">
   <meta name="twitter:description" content="Governança de dados: qualidade, metadados, rastreabilidade e privacidade (LGPD).">
-  <meta name="twitter:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
+  <meta name="twitter:image" content="https://igorlnunes.com/images/igor_mateus.jpg?v=20261017">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://igorlnunes.com">
@@ -62,7 +62,7 @@
       "@type": "Organization",
       "name": "Freelance"
     },
-    "image": "https://igorlnunes.com/images/igor_mateus.jpg",
+    "image": "https://igorlnunes.com/images/igor_mateus.jpg?v=20261017",
     "description": "Engenheiro em transição para Governança de Dados: qualidade de dados, metadados, rastreabilidade e privacidade (LGPD).",
     "skills": [
       "Governança de Dados",
@@ -122,8 +122,18 @@
           <li class="nav__item">
             <a href="#contact" class="nav__link" data-i18n="header.navContact">Contato</a>
           </li>
-          <li class="nav__item">
-            <button id="language-toggle" class="nav__link nav__language-toggle" type="button">🇧🇷 PT-BR</button>
+          <li class="nav__item nav__item--lang">
+            <div id="language-toggle" class="lang-switch" role="group" aria-label="Seletor de idioma / Language selector" tabindex="0">
+              <span class="lang-switch__slider" aria-hidden="true"></span>
+              <button type="button" class="lang-switch__btn active" data-lang="pt" aria-label="Mudar para Português" aria-pressed="true" title="Português (PT-BR)">
+                <span class="lang-switch__flag">🇧🇷</span>
+                <span class="lang-switch__text">PT-BR</span>
+              </button>
+              <button type="button" class="lang-switch__btn" data-lang="en" aria-label="Switch to English" aria-pressed="false" title="English (EN)">
+                <span class="lang-switch__flag">🇬🇧</span>
+                <span class="lang-switch__text">EN</span>
+              </button>
+            </div>
           </li>
         </ul>
       </nav>
@@ -436,7 +446,7 @@
           </div>
 
           <div class="about__photo-container">
-            <img class="about__photo" src="./images/igor_mateus.jpg" alt="Igor Mateus de Lima Nunes - Especialista em Governança de Dados" />
+            <img class="about__photo" src="./images/igor_mateus.jpg?v=20261017" alt="Igor Mateus de Lima Nunes - Especialista em Governança de Dados" data-i18n-alt="about.photoAlt" />
           </div>
         </div>
       </div>
@@ -511,8 +521,8 @@
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" aria-label="Voltar ao topo">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+  <a href="#top" class="back-to-top" aria-label="Voltar ao topo" data-i18n-aria="footer.backToTopAria">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" data-i18n-alt="footer.backToTopAlt" />
   </a>
   <script src="./i18n.js"></script>
   <script src="./index.js"></script>

@@ -1,40 +1,21 @@
 /* -----------------------------------------
   Have focus outline only for keyboard users 
  ---------------------------------------- */
-
-// Initialize i18n when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-  if (typeof initI18n === 'function') {
-    initI18n();
-  }
-});
-
 const handleFirstTab = (e) => {
-  if(e.key === 'Tab') {
-    document.body.classList.add('user-is-tabbing')
-
-    window.removeEventListener('keydown', handleFirstTab)
-    window.addEventListener('mousedown', handleMouseDownOnce)
+  if (e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing');
+    window.removeEventListener('keydown', handleFirstTab);
+    window.addEventListener('mousedown', handleMouseDownOnce);
   }
-
-}
+};
 
 const handleMouseDownOnce = () => {
-  document.body.classList.remove('user-is-tabbing')
+  document.body.classList.remove('user-is-tabbing');
+  window.removeEventListener('mousedown', handleMouseDownOnce);
+  window.addEventListener('keydown', handleFirstTab);
+};
 
-  window.removeEventListener('mousedown', handleMouseDownOnce)
-  window.addEventListener('keydown', handleFirstTab)
-}
-
-window.addEventListener('keydown', handleFirstTab)
-
-// Language Toggle Handler
-const languageToggle = document.getElementById('language-toggle');
-if (languageToggle) {
-  languageToggle.addEventListener('click', () => {
-    toggleLanguage();
-  });
-}
+window.addEventListener('keydown', handleFirstTab);
 
 const backToTopButton = document.querySelector(".back-to-top");
 let isBackToTopRendered = false;
