@@ -515,6 +515,66 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+.work__text {
+    flex: 0 0 40%;
+}
+
+.work__case {
+    list-style: none;
+    margin-bottom: var(--gutter-small);
+    font-size: 1.6rem;
+}
+
+.work__case li {
+    margin-bottom: 1rem;
+}
+
+.work__case strong {
+    color: var(--white);
+}
+
+.work--secondary .work__text {
+    flex: 0 0 30%;
+}
+
+/* --------------------------------------- */
+/* ----- Header role & Highlights ----- */
+/* --------------------------------------- */
+
+.header__text .header__role {
+    margin: 1rem 0 0;
+    font-size: var(--font-size-medium-1);
+    color: var(--white);
+}
+
+.highlights h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--gutter-medium);
+}
+
+.highlights__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--gutter-normal);
+}
+
+.highlights__card {
+    padding: var(--gutter-normal);
+    border: var(--border-light);
+    border-top: 3px solid var(--pink);
+    border-radius: 4px;
+}
+
+.highlights__card h3 {
+    font-size: var(--font-size-normal);
+    margin-bottom: var(--gutter-small);
+}
+
+.highlights__card p {
+    font-size: 1.6rem;
+}
+
+
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;

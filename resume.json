@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Igor Mateus de Lima Nunes",
-    "label": "Frontend Developer",
+    "label": "Especialista em Governança de Dados (Júnior)",
     "image": "https://igorlnunes.com/images/igor_mateus.jpg",
     "email": "igorlnunes@gmail.com",
     "phone": "",
     "url": "https://igorlnunes.com",
-    "summary": "Frontend developer with expertise in React, Angular, TypeScript and modern web technologies. Passionate about creating user-centric digital products that solve real problems. Experience with AI integration, blockchain, and web3 technologies.",
+    "summary": "Engenheiro em transição para Governança de Dados, com foco em qualidade de dados, metadados, rastreabilidade, controle de acesso e privacidade (LGPD). Projetos próprios em integridade e proveniência de documentos, Row Level Security e modelagem relacional. Front-end como diferencial para construir portais, catálogos e dashboards de governança.",
     "location": {
       "countryCode": "BR",
       "address": "Brazil"
@@ -27,144 +27,170 @@
   "work": [
     {
       "name": "Self-employed",
-      "position": "Frontend Developer",
+      "position": "Freelance Software Developer",
       "startDate": "2021",
       "endDate": "",
       "isCurrentRole": true,
-      "summary": "Developing modern web applications using React, Angular, and TypeScript. Specializing in AI integration, blockchain applications, and decentralized storage solutions.",
+      "summary": "Desenvolvimento de aplicações web com foco em dados: modelagem em PostgreSQL, controle de acesso (RLS), integridade e rastreabilidade de documentos e dashboards de indicadores.",
       "highlights": [
-        "Built production applications serving thousands of users",
-        "Integrated Google Gemini AI API for intelligent question generation",
-        "Implemented blockchain interactions with Ethereum Virtual Machine",
-        "Created IPFS upload solutions using Pinata",
-        "Developed responsive landing pages and complex UIs"
+        "Implementou controle de acesso por linha (RLS) em PostgreSQL/Supabase",
+        "Registrou prova de integridade e existência de documentos via IPFS e Smart Contract, mantendo metadados off-chain",
+        "Modelou regras de integridade para evitar conflitos de reserva e definiu métricas de ocupação em dashboard analítico",
+        "Integrou a API Google Gemini em aplicação de geração de conteúdo"
       ],
       "keywords": [
-        "React.js",
-        "Angular",
-        "TypeScript",
-        "Google Gemini AI",
-        "Blockchain",
-        "IPFS",
-        "Web Development"
+        "Data Governance",
+        "Data Quality",
+        "Metadata",
+        "Row Level Security",
+        "PostgreSQL",
+        "LGPD",
+        "Python",
+        "Django"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Engineering background",
+      "institution": "",
       "studyType": "Engineering",
-      "summary": "Strong foundation in problem-solving, systems thinking, and complex system analysis. Applied engineering principles to software development and user experience design."
+      "summary": "Base sólida em resolução de problemas, pensamento sistêmico, processos e análise de sistemas complexos."
     }
   ],
+  "certificates": [],
   "skills": [
     {
-      "name": "Frontend Frameworks",
-      "level": "Expert",
+      "name": "Data Governance",
+      "level": "Learning",
+      "keywords": [
+        "Data Stewardship",
+        "Policies and Standards",
+        "Information Classification",
+        "Business Glossary",
+        "DAMA-DMBOK"
+      ]
+    },
+    {
+      "name": "Data Quality",
+      "level": "Intermediate",
+      "keywords": [
+        "Integrity Rules",
+        "Validation",
+        "Metrics and KPIs",
+        "Dashboards"
+      ]
+    },
+    {
+      "name": "Metadata & Traceability",
+      "level": "Intermediate",
+      "keywords": [
+        "Provenance",
+        "Hash / CID",
+        "IPFS",
+        "Smart Contracts",
+        "Data Catalog (learning)",
+        "Data Lineage (learning)"
+      ]
+    },
+    {
+      "name": "Privacy & Compliance",
+      "level": "Learning",
+      "keywords": [
+        "LGPD",
+        "Data Minimization",
+        "Right to Erasure",
+        "Access Control",
+        "Row Level Security"
+      ]
+    },
+    {
+      "name": "Data & Engineering",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "Supabase",
+        "Relational Modeling",
+        "Python",
+        "Django",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Complementary Skills",
+      "level": "Intermediate",
       "keywords": [
         "React.js",
         "Angular",
-        "Component Design",
-        "Hooks",
-        "Context API",
-        "RxJS",
-        "Dependency Injection"
-      ]
-    },
-    {
-      "name": "Web Technologies",
-      "level": "Expert",
-      "keywords": [
+        "TypeScript",
         "HTML5",
         "CSS3",
-        "JavaScript",
-        "ES6+",
-        "Responsive Design",
-        "Accessibility",
-        "DOM Manipulation",
-        "Semantic HTML"
-      ]
-    },
-    {
-      "name": "Programming Languages",
-      "level": "Advanced",
-      "keywords": [
-        "TypeScript",
-        "JavaScript",
-        "Rust",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "name": "Styling & UI",
-      "level": "Advanced",
-      "keywords": [
-        "Styled Components",
-        "CSS3",
-        "Semantic UI",
-        "Responsive Design",
-        "Flexbox",
-        "Grid",
-        "Animations"
-      ]
-    },
-    {
-      "name": "API & Integration",
-      "level": "Advanced",
-      "keywords": [
-        "RESTful APIs",
+        "Solidity",
         "Google Gemini API",
-        "Infura RPC",
-        "Web3.js",
-        "Async/Await",
-        "Data Fetching",
-        "Error Handling"
-      ]
-    },
-    {
-      "name": "Emerging Technologies",
-      "level": "Intermediate",
-      "keywords": [
-        "Blockchain",
-        "ERC20 Tokens",
-        "Ethereum Virtual Machine",
-        "IPFS",
-        "Web3",
-        "AI/ML Integration",
-        "Generative AI"
-      ]
-    },
-    {
-      "name": "DevOps & Tools",
-      "level": "Intermediate",
-      "keywords": [
-        "Git",
-        "GitHub",
         "Docker",
-        "Linux",
-        "Vercel",
-        "Firebase",
-        "Version Control"
+        "Linux"
       ]
     },
     {
       "name": "Soft Skills",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
-        "Problem Solving",
-        "Communication",
-        "User Experience Design",
-        "Team Collaboration",
-        "Continuous Learning",
-        "System Thinking"
+        "Communication between IT and Business",
+        "Documentation",
+        "Systems Thinking",
+        "Continuous Learning"
       ]
     }
   ],
   "projects": [
     {
+      "name": "PinVault - Decentralized Document Vault",
+      "description": "Gerenciador de documentos voltado para privacidade. O CID do IPFS é registrado em Smart Contract como carimbo de existência e prova de integridade; metadados protegidos no Supabase com Row Level Security.",
+      "url": "https://pinvault-sigma.vercel.app/",
+      "repository": "https://github.com/igorlnunes/pinvault_web3",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Solidity",
+        "Foundry",
+        "IPFS",
+        "Wagmi",
+        "Viem",
+        "Supabase",
+        "PostgreSQL"
+      ],
+      "keywords": [
+        "Data Integrity",
+        "Provenance",
+        "Access Control",
+        "RLS",
+        "Data Minimization",
+        "LGPD"
+      ]
+    },
+    {
+      "name": "Classroom Management",
+      "description": "Sistema de reservas e ocupação de salas de aula, com reservas únicas e recorrentes, regra de integridade contra choque de horários e dashboard de taxas de ocupação.",
+      "url": "https://gestao-salas-aula.onrender.com",
+      "repository": "https://github.com/igorlnunes/gestao-salas-aula",
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Supabase",
+        "CSS3"
+      ],
+      "keywords": [
+        "Data Modeling",
+        "Integrity Rules",
+        "KPIs",
+        "Metrics Definition"
+      ]
+    },
+    {
       "name": "Vestigen - Physics Question Generator",
-      "description": "Application for generating multiple-choice physics questions for entrance exams. Users can select topics and difficulty levels, answer questions, and access detailed solutions generated by Google Gemini AI.",
+      "description": "Aplicação que gera questões de Física para vestibular com Google Gemini.",
       "startDate": "2023",
       "endDate": "2024",
       "isActive": true,
@@ -176,41 +202,31 @@
         "Google Gemini API",
         "MathJax",
         "LaTeX",
-        "Firebase",
-        "Responsive Design"
+        "Firebase"
       ],
       "keywords": [
-        "AI Integration",
-        "Educational Technology",
         "Generative AI",
-        "Angular Framework",
-        "Mathematical Rendering"
+        "Content Validation"
       ]
     },
     {
       "name": "ERC20 Token Balance Checker",
-      "description": "Terminal User Interface application for checking ERC20 token balances (USDC) on Ethereum Virtual Machine addresses. Built with Rust and ethers.rs.",
+      "description": "Aplicação de terminal que consulta saldos de tokens ERC20 (USDC) em endereços EVM, em Rust.",
       "startDate": "2023",
       "repository": "https://github.com/igorlnunes/wallet_addr",
       "technologies": [
         "Rust",
         "ethers.rs",
-        "Infura RPC",
-        "Client/Provider Pattern",
-        "Blockchain",
-        "ERC20 Tokens"
+        "Infura RPC"
       ],
       "keywords": [
         "Blockchain",
-        "Web3",
-        "Ethereum",
-        "Rust",
-        "Smart Contracts"
+        "ERC20"
       ]
     },
     {
       "name": "IPFS Image Upload Application",
-      "description": "Web application for uploading images to the Interplanetary File System using Pinata as the service provider.",
+      "description": "Aplicação web para upload de imagens no IPFS usando Pinata.",
       "startDate": "2023",
       "url": "https://upload2-ipfs.vercel.app/",
       "repository": "https://github.com/igorlnunes/upload2Pinata",
@@ -219,58 +235,11 @@
         "JavaScript",
         "IPFS HTTP Client",
         "Pinata API",
-        "Semantic UI",
-        "Vercel"
+        "Semantic UI"
       ],
       "keywords": [
         "Decentralized Storage",
-        "IPFS",
-        "Web3",
-        "File Management",
-        "React Framework"
-      ]
-    },
-    {
-      "name": "Banking Login System",
-      "description": "React application demonstrating login system with validation, Context API for state management, and user information handling.",
-      "startDate": "2022",
-      "url": "https://typescript-diobank.vercel.app/",
-      "repository": "https://github.com/igorlnunes/typescript_diobank",
-      "technologies": [
-        "React.js",
-        "TypeScript",
-        "Context API",
-        "Styled Components",
-        "Form Validation",
-        "Vercel"
-      ],
-      "keywords": [
-        "Authentication",
-        "State Management",
-        "TypeScript",
-        "React Hooks",
-        "Form Handling"
-      ]
-    },
-    {
-      "name": "Coffee Shop Landing Page",
-      "description": "Responsive landing page for a coffee shop with menu, location information, and Google Maps integration.",
-      "startDate": "2022",
-      "url": "https://coffeshop-five.vercel.app/",
-      "repository": "https://github.com/igorlnunes/coffeshop",
-      "technologies": [
-        "HTML5",
-        "CSS3",
-        "Responsive Design",
-        "Google Maps API",
-        "Vercel"
-      ],
-      "keywords": [
-        "Landing Page",
-        "Responsive Design",
-        "HTML/CSS",
-        "Semantic Markup",
-        "Web Design"
+        "IPFS"
       ]
     }
   ],
@@ -281,26 +250,26 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
     {
-      "name": "Web Development",
+      "name": "Data Governance, Quality and Privacy",
       "keywords": [
-        "Frontend",
-        "User Experience",
-        "Performance Optimization",
-        "Accessibility"
+        "Data Stewardship",
+        "Data Quality",
+        "Metadata",
+        "LGPD",
+        "DAMA-DMBOK"
       ]
     },
     {
-      "name": "Emerging Technologies",
+      "name": "Governance Tooling",
       "keywords": [
-        "Blockchain",
-        "Web3",
-        "AI/ML",
-        "Decentralized Applications"
+        "Data Catalogs",
+        "Dashboards",
+        "Front-end for Data"
       ]
     },
     {

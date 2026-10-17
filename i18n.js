@@ -13,8 +13,7 @@ let translations = {};
 async function initI18n() {
   try {
     // Load translations
-    const baseUrl = document.querySelector('base')?.href || '/';
-    const translationsUrl = new URL('translations.json', baseUrl).href;
+    const translationsUrl = new URL('translations.json', document.baseURI).href;
     const response = await fetch(translationsUrl);
     translations = await response.json();
 

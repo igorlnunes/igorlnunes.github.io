@@ -10,49 +10,42 @@
   For business & inquires, contact me => syednisarhassan12@gmail.com
 -->
 
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Base URL para GitHub Pages -->
-  <base href="/">
-
   <!-- SEO & Meta Tags -->
-  <title>Igor Mateus de Lima Nunes | Front-End Developer | React, Angular, TypeScript</title>
-  
-  <meta name="description" content="Frontend developer specializing in React, Angular, TypeScript. Portfolio showcasing web applications, AI integration, and blockchain projects. Passionate about technology and user experience.">
-  
-  <meta name="keywords" content="frontend developer, React, Angular, TypeScript, JavaScript, CSS, HTML5, web developer, UI development, Google Gemini AI, IPFS, blockchain, Linux, Docker, developer portfolio">
-  
+  <title>Igor Mateus de Lima Nunes | Especialista em Governança de Dados | Qualidade, Metadados e LGPD</title>
+
+  <meta name="description" content="Engenheiro em transição para Governança de Dados: qualidade de dados, metadados, rastreabilidade, controle de acesso e privacidade (LGPD). Portfólio com cases de integridade, proveniência e modelagem de dados.">
+
+  <meta name="keywords" content="governança de dados, qualidade de dados, data stewardship, catálogo de dados, metadados, linhagem de dados, LGPD, DAMA-DMBOK, MDM, dicionário de dados, classificação da informação, PostgreSQL, SQL, Row Level Security">
+
   <meta name="author" content="Igor Mateus de Lima Nunes">
   <meta name="robots" content="index, follow">
-  <meta name="language" content="en, pt-BR">
-  
+  <meta name="language" content="pt-BR, en">
+
   <!-- Open Graph Tags -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Igor Mateus de Lima Nunes | Frontend Developer">
-  <meta property="og:description" content="Experienced Frontend Developer with expertise in React, Angular, TypeScript. Check out my projects and get in touch.">
+  <meta property="og:title" content="Igor Mateus de Lima Nunes | Governança de Dados">
+  <meta property="og:description" content="Dados confiáveis, seguros e rastreáveis: qualidade, metadados e privacidade (LGPD). Conheça meus cases e entre em contato.">
   <meta property="og:url" content="https://igorlnunes.com">
   <meta property="og:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
   <meta property="og:site_name" content="Igor Nunes Portfolio">
-  
+
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Igor Mateus de Lima Nunes | Frontend Developer">
-  <meta name="twitter:description" content="Frontend developer with expertise in React, Angular, TypeScript and modern web technologies.">
+  <meta name="twitter:title" content="Igor Mateus de Lima Nunes | Governança de Dados">
+  <meta name="twitter:description" content="Governança de dados: qualidade, metadados, rastreabilidade e privacidade (LGPD).">
   <meta name="twitter:image" content="https://igorlnunes.com/images/igor_mateus.jpg">
-  
+
   <!-- Canonical URL -->
-  <meta name="canonical" content="https://igorlnunes.com">
-  
+  <link rel="canonical" href="https://igorlnunes.com">
+
   <!-- Schema.org JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
@@ -64,54 +57,52 @@
       "https://github.com/igorlnunes",
       "https://www.linkedin.com/in/igorlnunes/"
     ],
-    "jobTitle": "Frontend Developer",
+    "jobTitle": "Especialista em Governança de Dados (Júnior)",
     "worksFor": {
       "@type": "Organization",
       "name": "Freelance"
     },
     "image": "https://igorlnunes.com/images/igor_mateus.jpg",
-    "description": "Frontend Developer specializing in React, Angular, TypeScript, and modern web technologies",
+    "description": "Engenheiro em transição para Governança de Dados: qualidade de dados, metadados, rastreabilidade e privacidade (LGPD).",
     "skills": [
-      "React.js",
-      "Angular",
-      "TypeScript",
-      "JavaScript",
-      "HTML5",
-      "CSS",
-      "Styled Components",
-      "API Integration",
-      "Google Gemini AI",
-      "IPFS",
-      "Rust",
-      "Docker",
-      "Linux"
+      "Governança de Dados",
+      "Qualidade de Dados",
+      "Metadados",
+      "LGPD",
+      "Controle de Acesso",
+      "Row Level Security",
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Modelagem Relacional"
     ],
     "knowsAbout": [
-      "Web Development",
-      "Frontend Engineering",
-      "User Interface Design",
-      "API Integration",
-      "Blockchain Development",
-      "Artificial Intelligence",
-      "Database Design"
+      "Data Governance",
+      "Data Quality",
+      "Metadata Management",
+      "Data Traceability",
+      "Data Privacy",
+      "LGPD",
+      "DAMA-DMBOK",
+      "Database Design",
+      "Front-end Development"
     ]
   }
   </script>
-  
-  <!-- Schema.org Job Posting / CV Structure -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Frontend Developer Portfolio",
+    "name": "Portfólio de Governança de Dados - Igor Nunes",
     "author": {
       "@type": "Person",
       "name": "Igor Mateus de Lima Nunes"
     },
-    "description": "Portfolio showcasing frontend development projects and expertise"
+    "description": "Portfólio com cases de governança de dados: qualidade, metadados, rastreabilidade e privacidade."
   }
   </script>
-  
+
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -123,7 +114,7 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link" data-i18n="header.navWork">Trabalhos</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link" data-i18n="header.navWork">Cases</a></li>
           <li class="nav__item"><a href="#skills" class="nav__link" data-i18n="header.navSkills">Habilidades</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link" data-i18n="header.navAbout">Sobre mim</a>
@@ -132,7 +123,7 @@
             <a href="#contact" class="nav__link" data-i18n="header.navContact">Contato</a>
           </li>
           <li class="nav__item">
-            <button id="language-toggle" class="nav__link nav__language-toggle" style="background: none; border: none; cursor: pointer; padding: 0.5rem 1rem; font-size: 0.9em;">🇧🇷 PT-BR</button>
+            <button id="language-toggle" class="nav__link nav__language-toggle" type="button">🇧🇷 PT-BR</button>
           </li>
         </ul>
       </nav>
@@ -140,11 +131,10 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
           <span>Igor Mateus de Lima Nunes</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p data-i18n="header.heroSubtitle">Desenvolvedor front-end e apaixonado por tecnologia.</p>
+        <p class="header__role" data-i18n="header.role">Especialista em Governança de Dados (Júnior)</p>
+        <p data-i18n="header.heroSubtitle">Transformo dados em ativos confiáveis, seguros e rastreáveis: qualidade, metadados e privacidade (LGPD). Engenheiro de formação, com o front-end como diferencial para construir portais, catálogos e dashboards de governança.</p>
         <a href="#contact" class="btn btn--pink" data-i18n="header.heroCTA">Fale comigo</a>
       </div>
     </div>
@@ -152,44 +142,71 @@
 
   <main role="main">
 
+    <!-- ***** Highlights ***** -->
+
+    <section class="highlights" id="highlights">
+      <div class="row">
+        <h2 data-i18n="highlights.heading">Competências em destaque</h2>
+        <div class="highlights__cards">
+          <article class="highlights__card">
+            <h3 data-i18n="highlights.quality.title">Qualidade de Dados</h3>
+            <p data-i18n="highlights.quality.text">Regras de integridade e validação aplicadas na modelagem e no código, e métricas para acompanhar o resultado.</p>
+          </article>
+          <article class="highlights__card">
+            <h3 data-i18n="highlights.metadata.title">Metadados e Rastreabilidade</h3>
+            <p data-i18n="highlights.metadata.text">Registro de proveniência, integridade e autoria de documentos, separando dado e metadado.</p>
+          </article>
+          <article class="highlights__card">
+            <h3 data-i18n="highlights.privacy.title">Privacidade e LGPD</h3>
+            <p data-i18n="highlights.privacy.text">Controle de acesso por linha (RLS), minimização de dados e atenção ao direito ao apagamento.</p>
+          </article>
+          <article class="highlights__card">
+            <h3 data-i18n="highlights.policies.title">Políticas e Stewardship</h3>
+            <p data-i18n="highlights.policies.text">Em estudo: papéis, políticas, glossário e frameworks como o DAMA-DMBOK.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2 data-i18n="work.heading">Meus Trabalhos</h2>
+        <h2 data-i18n="work.heading">Cases de Governança de Dados</h2>
         <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box" data-project-id="web3-cofre">
             <div class="work__text">
-              <h3 data-project-title>Cofre de Documentos Descentralizado</h3>
+              <h3 data-project-title>Cofre de Documentos Descentralizado (PinVault)</h3>
               <p data-project-desc>
-                Aplicação web de gerenciamento de arquivos voltada para privacidade que utiliza tecnologias <b>Web3</b>
-                para garantir imutabilidade e prova de autoria a documentos sensíveis. O CID gerado pelo upload no
-                <b>IPFS</b> é registrado em um <b>Smart Contract</b> na blockchain, servindo como carimbo de existência.
-                Os metadados ficam protegidos no <b>Supabase</b> com Row Level Security (RLS).
+                Aplicação web de gerenciamento de arquivos voltada para privacidade. O CID gerado pelo upload no IPFS é registrado em um Smart Contract, servindo como carimbo de existência e prova de integridade. Os metadados ficam protegidos no Supabase com Row Level Security (RLS).
               </p>
+              <ul class="work__case">
+                <li><strong data-i18n="work.labels.problem">Problema</strong>: <span data-i18n="work.cases.pinvault.problem">Garantir integridade, prova de autoria e rastreabilidade de documentos sensíveis, sem expor dados pessoais.</span></li>
+                <li><strong data-i18n="work.labels.data">Dados envolvidos</strong>: <span data-i18n="work.cases.pinvault.data">Arquivos (IPFS), CID, carimbo de existência on-chain e metadados dos documentos (Supabase/PostgreSQL).</span></li>
+                <li><strong data-i18n="work.labels.controls">Controles e políticas</strong>: <span data-i18n="work.cases.pinvault.controls">Row Level Security (RLS) para controle de acesso; apenas o CID vai para a blockchain, metadados ficam off-chain, o que apoia minimização de dados e a discussão sobre direito ao apagamento (LGPD).</span></li>
+                <li><strong data-i18n="work.labels.result">Resultado</strong>: <span data-i18n="work.cases.pinvault.result">Documentos verificáveis por hash/CID, com autoria comprovável e acesso restrito ao proprietário.</span></li>
+              </ul>
               <ul class="work__list">
-                <li>React 19 & Vite</li>
+                <li>React 19 &amp; Vite</li>
                 <li>TypeScript</li>
-                <li>Solidity & Foundry</li>
+                <li>Solidity &amp; Foundry</li>
                 <li>IPFS (Pinata)</li>
-                <li>Wagmi & Viem</li>
+                <li>Wagmi &amp; Viem</li>
                 <li>Supabase (PostgreSQL)</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://pinvault-sigma.vercel.app/" class="link__text" target="_blank" data-project-visit-btn>
+                <a href="https://pinvault-sigma.vercel.app/" class="link__text" target="_blank" rel="noopener noreferrer" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/pinvault_web3" title="Código-fonte" target="_blank" data-project-source-code>
+                <a href="https://github.com/igorlnunes/pinvault_web3" title="Código-fonte" target="_blank" rel="noopener noreferrer" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/docvault_demonstracao.gif" class="work__image" alt="Demonstração Projeto Cofre de Documentos Descentralizado" />
+              <img src="./images/docvault_demonstracao.gif" class="work__image" loading="lazy" alt="Demonstração Projeto Cofre de Documentos Descentralizado" />
             </div>
           </div>
 
@@ -197,8 +214,14 @@
             <div class="work__text">
               <h3 data-project-title>Gestão de Salas de Aula</h3>
               <p data-project-desc>
-                O Gestão de Salas de Aula é um sistema para o gerenciamento de reservas e ocupação de salas de aula. Permite o cadastro de salas, criação de reservas únicas e recorrentes (evitando choque de horários) e visualização de métricas importantes por meio de um dashboard analítico focado em taxas de ocupação.
+                Sistema para gerenciamento de reservas e ocupação de salas de aula, com reservas únicas e recorrentes e dashboard analítico focado em taxas de ocupação.
               </p>
+              <ul class="work__case">
+                <li><strong data-i18n="work.labels.problem">Problema</strong>: <span data-i18n="work.cases.salas.problem">Evitar conflitos de reserva e dar visibilidade à ocupação das salas de aula.</span></li>
+                <li><strong data-i18n="work.labels.data">Dados envolvidos</strong>: <span data-i18n="work.cases.salas.data">Salas, reservas únicas e recorrentes, horários e ocupação (PostgreSQL).</span></li>
+                <li><strong data-i18n="work.labels.controls">Controles e políticas</strong>: <span data-i18n="work.cases.salas.controls">Modelagem relacional e regra de integridade que impede choque de horários; métrica de taxa de ocupação com definição única.</span></li>
+                <li><strong data-i18n="work.labels.result">Resultado</strong>: <span data-i18n="work.cases.salas.result">Dashboard analítico com taxas de ocupação consistentes e dados de reserva sem sobreposição.</span></li>
+              </ul>
               <ul class="work__list">
                 <li>Python</li>
                 <li>Django</li>
@@ -207,26 +230,35 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://gestao-salas-aula.onrender.com" class="link__text" target="_blank" data-project-visit-btn>
+                <a href="https://gestao-salas-aula.onrender.com" class="link__text" target="_blank" rel="noopener noreferrer" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/gestao-salas-aula" title="Código-fonte" target="_blank" data-project-source-code>
+                <a href="https://github.com/igorlnunes/gestao-salas-aula" title="Código-fonte" target="_blank" rel="noopener noreferrer" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/gestaoSalasAulaDemo.gif" class="work__image" alt="Demonstração Projeto Gestão de Salas de Aula" />
+              <img src="./images/gestaoSalasAulaDemo.gif" class="work__image" loading="lazy" alt="Demonstração Projeto Gestão de Salas de Aula" />
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Other projects ***** -->
+
+    <section class="work work--secondary" id="other-work">
+      <div class="row">
+        <h2 data-i18n="work.otherHeading">Outros projetos</h2>
+        <div class="work__boxes">
+
           <div class="work__box" data-project-id="vestigen">
             <div class="work__text">
-              <h3 data-project-title>Gerador de Questões de Física para Vestibular com Google Gemini</h3>
+              <h3 data-project-title>Gerador de Questões de Física com Google Gemini</h3>
               <p data-project-desc>
-                Aplicação criar questões de multípla escolha de Física para vestibular. O usuário pode escolher o tópico
-                da questão e a dificuldade. Após o usuário responder pode acessar a resolução da questão. O enunciado e a resolução
-                das questões são geradas por <b>Inteligência Artificial Generativa - Google Gemini</b>
+                Aplicação que gera questões de múltipla escolha de Física para vestibular com IA generativa (Google Gemini), com escolha de tópico e dificuldade e acesso à resolução. Exemplo prático de uso de IA em que a qualidade do conteúdo gerado precisa ser validada.
               </p>
               <ul class="work__list">
                 <li>Google Gemini - API</li>
@@ -236,25 +268,24 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://vestigen-app.web.app/" class="link__text" target="_blank" data-project-visit-btn>
+                <a href="https://vestigen-app.web.app/" class="link__text" target="_blank" rel="noopener noreferrer" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/vestigen-fisica/" title="Código-fonte" target="_blank" data-project-source-code>
+                <a href="https://github.com/igorlnunes/vestigen-fisica/" title="Código-fonte" target="_blank" rel="noopener noreferrer" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/vestigenDemo.gif" class="work__image" alt="Demonstração Projeto Vestigen" />
+              <img src="./images/vestigenDemo.gif" class="work__image" loading="lazy" alt="Demonstração Projeto Vestigen" />
             </div>
           </div>
 
           <div class="work__box" data-project-id="erc20">
             <div class="work__text">
-              <h3 data-project-title>Getting balance of a ERC20 Token </h3>
+              <h3 data-project-title>Obtendo saldo de um Token ERC20</h3>
               <p data-project-desc>
-                A partir de um endereço <b>Ethereum Virtual Machine</b> a aplicação do tipo <i>Terminal Interface
-                  User</i> imprime o valor em USDC que está na carteira do endereço.
+                A partir de um endereço Ethereum Virtual Machine, a aplicação de terminal imprime o valor em USDC na carteira.
               </p>
               <ul class="work__list">
                 <li>Rust</li>
@@ -264,21 +295,21 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/igorlnunes/wallet_addr" title="Código-fonte" target="_blank" data-project-source-code>
+                <a href="https://github.com/igorlnunes/wallet_addr" title="Código-fonte" target="_blank" rel="noopener noreferrer" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/getBalanceDemo.gif" class="work__image" alt="Projeto - Get balance ERC20 Rust" />
+              <img src="./images/getBalanceDemo.gif" class="work__image" loading="lazy" alt="Projeto - Get balance ERC20 Rust" />
             </div>
           </div>
 
           <div class="work__box" data-project-id="ipfs">
             <div class="work__text">
-              <h3 data-project-title>Uploading a image on IPFS</h3>
+              <h3 data-project-title>Upload de imagem no IPFS</h3>
               <p data-project-desc>
-                Aplicação para o upload de imagens no Interplanetary File System usando o Pinata.
+                Aplicação para upload de imagens no Interplanetary File System usando o Pinata.
               </p>
               <ul class="work__list">
                 <li>React.JS</li>
@@ -288,67 +319,16 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://upload2-ipfs.vercel.app/" target="_blank" class="link__text" data-project-visit-btn>
+                <a href="https://upload2-ipfs.vercel.app/" target="_blank" rel="noopener noreferrer" class="link__text" data-project-visit-btn>
                   Visite o Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/igorlnunes/upload2Pinata" title="Código-fonte" target="_blank" data-project-source-code>
+                <a href="https://github.com/igorlnunes/upload2Pinata" title="Código-fonte" target="_blank" rel="noopener noreferrer" data-project-source-code>
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/Projeto1.png" class="work__image" alt="Projeto 1 - Upload Pinata" />
-            </div>
-          </div>
-
-          <div class="work__box" data-project-id="login">
-            <div class="work__text">
-              <h3 data-project-title>Sistema de Login e Validação</h3>
-              <p data-project-desc>
-                Sistema de login com validação, utilização do Context API e informações do usuários.
-              </p>
-              <ul class="work__list">
-                <li>ReactJS</li>
-                <li>TypeScript</li>
-                <li>Styled-components</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://typescript-diobank.vercel.app/" class="link__text" data-project-visit-btn>
-                  Visite o Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/igorlnunes/typescript_diobank" data-project-source-code>
-                  <img src="./images/github.svg" class="work__code" title="Código-fonte" alt=" GitHub" target="_blank">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Projeto21.png" class="work__image" alt="Projeto 2 - Diobank" />
-            </div>
-          </div>
-
-          <div class="work__box" data-project-id="coffee">
-            <div class="work__text">
-              <h3 data-project-title>Coffee Shop Landing Page</h3>
-              <p data-project-desc>
-                Landing Page para uma cafeteria, com cardápio, local e integração com Google Maps.
-              </p>
-              <ul class="work__list">
-                <li>HTML5</li>
-                <li>CSS</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://coffeshop-five.vercel.app/" class="link__text" data-project-visit-btn>
-                  Visite o Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/igorlnunes/coffeshop" data-project-source-code>
-                  <img src="./images/github.svg" class="work__code" title="Código-fonte" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/coffeeshop.gif" class="work__image" alt="Projeto 3 - Landing Page" />
+              <img src="./images/Projeto1.png" class="work__image" loading="lazy" alt="Projeto - Upload Pinata" />
             </div>
           </div>
 
@@ -360,64 +340,80 @@
 
     <section class="skills" id="skills">
       <div class="row">
-        <h2 data-i18n="skills.heading">Habilidades & Tecnologias</h2>
+        <h2 data-i18n="skills.heading">Habilidades &amp; Tecnologias</h2>
         <div class="skills__content">
-          
-          <div class="skills__group" data-skills-group-id="frontend">
-            <h3 data-skills-group-heading>Frontend Frameworks & Libraries</h3>
+
+          <div class="skills__group" data-skills-group-id="governance">
+            <h3 data-skills-group-heading>Governança de Dados</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>React.js & Vite</strong> - <span data-skill-description>Advanced component design, Context API, hooks, fast build tooling with Vite</span></li>
-              <li data-skill-item><strong data-skill-title>Angular</strong> - <span data-skill-description>Components, services, dependency injection, RxJS</span></li>
-              <li data-skill-item><strong data-skill-title>TypeScript</strong> - <span data-skill-description>Type safety, interfaces, advanced patterns</span></li>
+              <li data-skill-item><strong data-skill-title>Data Stewardship</strong> - <span data-skill-description>Papéis e responsabilidades sobre os dados (em estudo)</span></li>
+              <li data-skill-item><strong data-skill-title>Políticas e padrões</strong> - <span data-skill-description>Elaboração e aplicação de regras de uso dos dados (em estudo)</span></li>
+              <li data-skill-item><strong data-skill-title>Classificação da informação</strong> - <span data-skill-description>Sensibilidade e ciclo de vida do dado (em estudo)</span></li>
             </ul>
           </div>
 
-          <div class="skills__group" data-skills-group-id="web">
-            <h3 data-skills-group-heading>Core Web Technologies</h3>
+          <div class="skills__group" data-skills-group-id="quality">
+            <h3 data-skills-group-heading>Qualidade de Dados</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>HTML5</strong> - <span data-skill-description>Semantic markup, accessibility, SEO optimization</span></li>
-              <li data-skill-item><strong data-skill-title>CSS3</strong> - <span data-skill-description>Responsive design, flexbox, grid, animations</span></li>
-              <li data-skill-item><strong data-skill-title>JavaScript</strong> - <span data-skill-description>ES6+, async/await, DOM manipulation</span></li>
+              <li data-skill-item><strong data-skill-title>Regras de integridade</strong> - <span data-skill-description>Restrições no modelo relacional e validações (aplicado em projetos)</span></li>
+              <li data-skill-item><strong data-skill-title>Métricas e KPIs</strong> - <span data-skill-description>Definição de indicadores e dashboards analíticos</span></li>
             </ul>
           </div>
 
-          <div class="skills__group" data-skills-group-id="tools">
-            <h3 data-skills-group-heading>Tools & Technologies</h3>
+          <div class="skills__group" data-skills-group-id="metadata">
+            <h3 data-skills-group-heading>Metadados &amp; Rastreabilidade</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>API Integration</strong> - <span data-skill-description>RESTful APIs, Google Gemini AI, Infura RPC</span></li>
-              <li data-skill-item><strong data-skill-title>UI Libraries</strong> - <span data-skill-description>Styled Components, Semantic UI, MathJax</span></li>
-              <li data-skill-item><strong data-skill-title>Version Control</strong> - <span data-skill-description>Git, GitHub</span></li>
-              <li data-skill-item><strong data-skill-title>Deployment</strong> - <span data-skill-description>Vercel, Firebase, Web3 platforms</span></li>
-              <li data-skill-item><strong data-skill-title>Supabase</strong> - <span data-skill-description>PostgreSQL BaaS, Auth, Row Level Security (RLS), real-time data</span></li>
+              <li data-skill-item><strong data-skill-title>Proveniência e integridade</strong> - <span data-skill-description>Hash/CID, IPFS e registro em Smart Contract</span></li>
+              <li data-skill-item><strong data-skill-title>Catálogo e linhagem</strong> - <span data-skill-description>Conceitos de catálogo de dados e linhagem (em estudo)</span></li>
             </ul>
           </div>
 
-          <div class="skills__group" data-skills-group-id="emerging">
-            <h3 data-skills-group-heading>Emerging Technologies</h3>
+          <div class="skills__group" data-skills-group-id="privacy">
+            <h3 data-skills-group-heading>Privacidade &amp; Conformidade</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>Blockchain</strong> - <span data-skill-description>ERC20 tokens, Ethereum Virtual Machine, Web3, Wagmi, Viem</span></li>
-              <li data-skill-item><strong data-skill-title>Smart Contracts</strong> - <span data-skill-description>Solidity, Foundry toolkit, Ethereum Sepolia & Polygon Amoy testnets</span></li>
-              <li data-skill-item><strong data-skill-title>AI/ML Integration</strong> - <span data-skill-description>Google Gemini API, generative AI</span></li>
-              <li data-skill-item><strong data-skill-title>Decentralized Storage</strong> - <span data-skill-description>IPFS, Pinata</span></li>
-              <li data-skill-item><strong data-skill-title>Backend Basics</strong> - <span data-skill-description>Rust, client/provider patterns</span></li>
+              <li data-skill-item><strong data-skill-title>LGPD</strong> - <span data-skill-description>Princípios, minimização e direito ao apagamento (em estudo)</span></li>
+              <li data-skill-item><strong data-skill-title>Controle de acesso</strong> - <span data-skill-description>Supabase Auth e Row Level Security (RLS)</span></li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-skills-group-id="dataeng">
+            <h3 data-skills-group-heading>Dados &amp; Engenharia</h3>
+            <ul class="skills__list">
+              <li data-skill-item><strong data-skill-title>SQL e PostgreSQL</strong> - <span data-skill-description>Modelagem relacional, consultas, Supabase</span></li>
+              <li data-skill-item><strong data-skill-title>Python e Django</strong> - <span data-skill-description>Aplicações orientadas a dados</span></li>
+              <li data-skill-item><strong data-skill-title>Git e GitHub</strong> - <span data-skill-description>Versionamento e documentação</span></li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-skills-group-id="frameworks">
+            <h3 data-skills-group-heading>Frameworks de referência</h3>
+            <ul class="skills__list">
+              <li data-skill-item><strong data-skill-title>DAMA-DMBOK</strong> - <span data-skill-description>Em estudo</span></li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-skills-group-id="complementary">
+            <h3 data-skills-group-heading>Habilidades complementares</h3>
+            <ul class="skills__list">
+              <li data-skill-item><strong data-skill-title>Front-end</strong> - <span data-skill-description>React, Angular, TypeScript, HTML5, CSS3 para portais e dashboards</span></li>
+              <li data-skill-item><strong data-skill-title>Web3 e IA</strong> - <span data-skill-description>Solidity, IPFS, Google Gemini API</span></li>
+              <li data-skill-item><strong data-skill-title>Infraestrutura</strong> - <span data-skill-description>Linux, Docker, Vercel, Firebase</span></li>
+            </ul>
+          </div>
+
+          <div class="skills__group" data-skills-group-id="soft">
+            <h3 data-skills-group-heading>Soft Skills</h3>
+            <ul class="skills__list">
+              <li data-skill-item><strong data-skill-title>Comunicação</strong> - <span data-skill-description>Diálogo entre TI e áreas de negócio, documentação clara</span></li>
+              <li data-skill-item><strong data-skill-title>Pensamento sistêmico</strong> - <span data-skill-description>Formação em Engenharia: processos, qualidade e controle</span></li>
             </ul>
           </div>
 
           <div class="skills__group" data-skills-group-id="languages">
-            <h3 data-skills-group-heading>Languages</h3>
+            <h3 data-skills-group-heading>Idiomas</h3>
             <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>Portuguese (PT-BR)</strong> - <span data-skill-description>Native</span></li>
-              <li data-skill-item><strong data-skill-title>English</strong> - <span data-skill-description>Intermediário</span></li>
-            </ul>
-          </div>
-
-          <div class="skills__group" data-skills-group-id="other">
-            <h3 data-skills-group-heading>Other Skills</h3>
-            <ul class="skills__list">
-              <li data-skill-item><strong data-skill-title>Operating Systems</strong> - <span data-skill-description>Linux, Windows</span></li>
-              <li data-skill-item><strong data-skill-title>Containerization</strong> - <span data-skill-description>Docker, Kubernetes basics</span></li>
-              <li data-skill-item><strong data-skill-title>Problem Solving</strong> - <span data-skill-description>Algorithm design, system thinking</span></li>
-              <li data-skill-item><strong data-skill-title>User Experience</strong> - <span data-skill-description>UI/UX principles, accessibility (WCAG)</span></li>
+              <li data-skill-item><strong data-skill-title>Português (PT-BR)</strong> - <span data-skill-description>Nativo</span></li>
+              <li data-skill-item><strong data-skill-title>Inglês</strong> - <span data-skill-description>Intermediário</span></li>
             </ul>
           </div>
 
@@ -432,20 +428,15 @@
         <h2 data-i18n="about.heading">Sobre mim</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p data-i18n="about.text">
-              Sou Engenheiro por formação, sempre buscando entender complexos sistemas e como as pessoas interagem com
-              eles. O desenvolvimento front-end é uma área onde ocorre integração usuário - máquina. Facilitar essa
-              integração, criando produtos digitais que agregam valor, me motiva a trabalhar nessa área.
+              Sou Engenheiro por formação e estou em transição de carreira para Governança de Dados. Meu olhar de engenharia para processos, qualidade e controle se conecta ao que construí em projetos próprios: integridade e proveniência de documentos, controle de acesso com RLS e modelagem de dados com regras de consistência. Estou aprofundando qualidade de dados, metadados e LGPD, e uso o front-end como diferencial para criar catálogos, dashboards e portais que aproximam a área de negócio dos dados.
             </p>
-            <!-- Provide a link to your resume -->
             <a href="https://www.dropbox.com/scl/fi/uiguof29h65vfl0417fxx/cv_resume_IgorNunes.pdf?rlkey=f2io6clvalrru39z7a2xq5s81&e=1&st=dwuyvm9w&dl=0"
-              target="_blank" class="btn" data-i18n="about.cvBtn">Curriculum Vitae</a>
+              target="_blank" rel="noopener noreferrer" class="btn" data-i18n="about.cvBtn">Curriculum Vitae</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/igor_mateus.jpg" alt="Igor Mateus de Lima Nunes - Frontend Developer" />
+            <img class="about__photo" src="./images/igor_mateus.jpg" alt="Igor Mateus de Lima Nunes - Especialista em Governança de Dados" />
           </div>
         </div>
       </div>
@@ -455,34 +446,30 @@
 
     <section class="education" id="education">
       <div class="row">
-        <h2 data-i18n="education.heading">Educação & Experiência</h2>
+        <h2 data-i18n="education.heading">Educação &amp; Experiência</h2>
         <div class="education__content">
-          
+
           <div class="education__item">
             <h3 data-i18n="education.academic.title">Formação Acadêmica</h3>
             <div class="education__entry">
               <h4 data-i18n="education.academic.degree">Engenharia</h4>
-              <p class="education__details" data-i18n="education.academic.description">Engineering background providing strong foundation in problem-solving, systems thinking, and complex system analysis</p>
+              <p class="education__details" data-i18n="education.academic.description">Base sólida em resolução de problemas, pensamento sistêmico, processos e análise de sistemas complexos.</p>
             </div>
           </div>
 
           <div class="education__item">
             <h3 data-i18n="education.professional.title">Experiência Profissional</h3>
             <div class="education__entry">
-              <h4 data-i18n="education.professional.position">Desenvolvedor Front-End Freelancer</h4>
-              <p class="education__details" data-i18n="education.professional.description">Desenvolvimento de aplicações web modernas com React e Angular, integrações com APIs de IA, blockchain e IPFS</p>
+              <h4 data-i18n="education.professional.position">Desenvolvedor de Software Freelancer</h4>
+              <p class="education__details" data-i18n="education.professional.description">Desenvolvimento de aplicações web com foco em dados: modelagem em PostgreSQL, controle de acesso (RLS), integridade e rastreabilidade de documentos, e dashboards de indicadores.</p>
               <p class="education__date" data-i18n="education.professional.current">Presente</p>
-            </div>
-            <div class="education__entry">
-              <h4 data-i18n="education.professional.projects.title">Projetos em Produção</h4>
-              <p class="education__details" data-i18n="education.professional.projects.description">Múltiplos projetos full-stack em produção com milhares de usuários utilizando tecnologias modernas</p>
             </div>
           </div>
 
           <div class="education__item">
-            <h3 data-i18n="education.certifications.title">Certificações & Aprendizado Contínuo</h3>
+            <h3 data-i18n="education.certifications.title">Certificações &amp; Aprendizado em andamento</h3>
             <div class="education__entry">
-              <p class="education__details" data-i18n="education.certifications.description">Comprometido com aprendizado contínuo em tecnologias emergentes como AI/ML, Blockchain, Web3 e DevOps</p>
+              <p class="education__details" data-i18n="education.certifications.description">Em estudo: fundamentos de Governança de Dados (DAMA-DMBOK), qualidade de dados, metadados e LGPD.</p>
             </div>
           </div>
 
@@ -498,10 +485,8 @@
       <h2 data-i18n="contact.heading">Entre em contato</h2>
       <div class="contact__info">
         <p data-i18n="contact.description">
-          Você está em busca de um desenvolvedor para fazer parte da sua equipe? Alguém que busca saber os valores a ser
-          entregue aos clientes? Por favor, entre em contato.
+          Sua equipe de dados, compliance ou privacidade busca alguém para ajudar a tornar os dados mais confiáveis, seguros e rastreáveis? Vamos conversar.
         </p>
-        <!-- Replace the email with yours -->
         <a href="mailto:igorlnunes@gmail.com" class="btn" data-i18n="contact.emailBtn">igorlnunes@gmail.com</a>
       </div>
     </div>
@@ -511,15 +496,14 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://github.com/igorlnunes/" title="Perfil Github" target="_blank" data-i18n-title="footer.githubTitle">
+          <a href="https://github.com/igorlnunes/" title="Perfil Github" aria-label="Perfil Github" target="_blank" rel="noopener noreferrer" data-i18n-title="footer.githubTitle">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/igorlnunes/" target="_blank" data-i18n-title="footer.linkedinTitle">
+          <a href="https://www.linkedin.com/in/igorlnunes/" title="Perfil LinkedIn" aria-label="Perfil LinkedIn" target="_blank" rel="noopener noreferrer" data-i18n-title="footer.linkedinTitle">
             <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
           </a>
         </li>
@@ -527,7 +511,7 @@
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top">
+  <a href="#top" class="back-to-top" aria-label="Voltar ao topo">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
   <script src="./i18n.js"></script>
